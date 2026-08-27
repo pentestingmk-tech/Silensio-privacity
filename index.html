@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Política de privacidad de Silensio, mensajería anónima y segura.">
+    <title>Silensio — Política de Privacidad</title>
+    <style>
+        :root {
+            --bg: #0F0F23;
+            --surface: #1A1A2E;
+            --surface-light: #2A2A4E;
+            --accent: #00D2FF;
+            --text: #E0E0E0;
+            --text-dim: #9090B0;
+            --green: #00FF88;
+            --border: #333355;
+            --bad: #FF5252;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0F0F23 0%, #1A1A2E 100%);
+            padding: 48px 40px 32px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 24px;
+            background: var(--surface-light);
+            border: 2px solid var(--accent);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            font-size: 20px;
+            font-weight: 900;
+            color: var(--accent);
+        }
+
+        header h1 {
+            font-size: 32px;
+            color: var(--accent);
+            letter-spacing: -0.5px;
+        }
+
+        header .tagline {
+            color: var(--text-dim);
+            font-size: 14px;
+            margin-top: 6px;
+        }
+
+        .updated {
+            display: inline-block;
+            margin-top: 14px;
+            background: var(--surface-light);
+            border: 1px solid var(--border);
+            color: var(--green);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--accent);
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h3 {
+            color: var(--text);
+            font-size: 16px;
+            margin: 18px 0 10px;
+        }
+
+        p, li {
+            color: var(--text);
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            padding-left: 24px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 14px;
+        }
+
+        th {
+            background: var(--surface-light);
+            color: var(--accent);
+            text-align: left;
+            padding: 12px;
+            font-weight: 700;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+            vertical-align: top;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            margin: 8px 4px 0 0;
+        }
+
+        .badge-yes {
+            background: rgba(0, 255, 136, 0.12);
+            color: var(--green);
+            border: 1px solid rgba(0, 255, 136, 0.4);
+        }
+
+        .badge-no {
+            background: rgba(255, 82, 82, 0.12);
+            color: var(--bad);
+            border: 1px solid rgba(255, 82, 82, 0.4);
+        }
+
+        .highlight {
+            background: var(--surface-light);
+            border-left: 4px solid var(--accent);
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            margin: 16px 0;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, var(--surface-light), var(--surface));
+            border: 1px solid var(--accent);
+            border-radius: 14px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .contact-box .email {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 17px;
+        }
+
+        .footer {
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 12px;
+            padding: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 600px) {
+            header { padding: 32px 16px 24px; }
+            header h1 { font-size: 24px; }
+            main { padding: 20px 12px 60px; }
+            section { padding: 20px; border-radius: 12px; }
+            table { font-size: 12px; }
+            th, td { padding: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">S</div>
+    <h1>Silensio</h1>
+    <p class="tagline">Política de Privacidad</p>
+    <div class="updated">Última actualización: 26 de agosto de 2026</div>
+</header>
+
+<main>
+
+    <section>
+        <p><strong>Responsable:</strong> Mk Pentesting</p>
+        <p><strong>Contacto:</strong> <a href="mailto:pentestingmk@gmail.com" style="color:#00D2FF;">pentestingmk@gmail.com</a></p>
+        <p><strong>Plataforma:</strong> Android</p>
+        <br>
+        <p>Silensio es una aplicación de mensajería anónima y segura que opera bajo el principio de <strong>privacidad por diseño</strong>. Esta política describe qué datos maneja la aplicación, cómo se usan y qué derechos tienes como usuario.</p>
+        <p>Al utilizar Silensio, aceptas las prácticas descritas en esta política.</p>
+    </section>
+
+    <section>
+        <h2>1. Datos que recopilamos</h2>
+        <h3>Datos almacenados localmente</h3>
+        <table>
+            <tr><th>Dato</th><th>Propósito</th><th>Cifrado</th></tr>
+            <tr><td>Nombre de usuario e ID único</td><td>Identificación dentro de la red</td><td>Sí (AES-256-GCM)</td></tr>
+            <tr><td>Lista de contactos</td><td>Acceso rápido a conversaciones</td><td>Sí (AES-256-GCM)</td></tr>
+            <tr><td>Mensajes de texto</td><td>Historial de conversaciones</td><td>Sí (AES-256-GCM)</td></tr>
+            <tr><td>Archivos multimedia recibidos</td><td>Imágenes, audio, video, documentos</td><td>Sí (AES-256-GCM)</td></tr>
+            <tr><td>Datos de grupos</td><td>Chats grupales</td><td>Sí (AES-256-GCM)</td></tr>
+            <tr><td>Frase de recuperación de 12 palabras</td><td>Recuperación de identidad</td><td>Sí (AES-256-GCM)</td></tr>
+            <tr><td>Configuración de la app</td><td>Preferencias del usuario</td><td>Parcial</td></tr>
+        </table>
+
+        <h3>Datos que NO recopilamos</h3>
+        <div style="margin-bottom: 10px;">
+            <span class="badge badge-no">NO</span>
+            <span class="badge badge-no">NO</span>
+            <span class="badge badge-no">NO</span>
+            <span class="badge badge-no">NO</span>
+            <span class="badge badge-no">NO</span>
+        </div>
+        <ul>
+            <li>Número de teléfono</li>
+            <li>Correo electrónico</li>
+            <li>Ubicación geográfica (GPS)</li>
+            <li>Identificadores del dispositivo (IMEI, MAC, etc.)</li>
+            <li>Lista de contactos del libro de direcciones</li>
+            <li>Lista de apps instaladas</li>
+            <li>Datos de uso o analytics</li>
+            <li>Registros de llamadas del sistema</li>
+            <li>Historial de navegación</li>
+            <li>Publicidad o datos publicitarios</li>
+            <li>Cualquier dato identificable personal</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>2. Cómo se procesan los datos</h2>
+        <h3>Comunicación cifrada de extremo a extremo (E2EE)</h3>
+        <p>Todos los mensajes y archivos se cifran en tu dispositivo y solo se descifran en el dispositivo del destinatario utilizando:</p>
+        <ul>
+            <li><strong>Intercambio de claves:</strong> ECDH sobre curva secp256r1</li>
+            <li><strong>Cifrado de mensajes:</strong> AES-256-CBC con PKCS5</li>
+            <li><strong>Firmas:</strong> ECDSA con SHA-256</li>
+            <li><strong>Secreto forward:</strong> Cada sesión genera un nuevo par de claves</li>
+        </ul>
+
+        <h3>Sin almacenamiento en servidores</h3>
+        <p>Silensio utiliza un servidor de señalización que <strong>únicamente reenvía datos cifrados</strong> entre dispositivos. El servidor:</p>
+        <ul>
+            <li>NO almacena mensajes</li>
+            <li>NO almacena archivos multimedia</li>
+            <li>NO tiene acceso al contenido de las conversaciones</li>
+            <li>NO puede descifrar los datos transmitidos</li>
+        </ul>
+
+        <h3>Comunicación peer-to-peer (P2P)</h3>
+        <p>Las llamadas de voz y video se realizan directamente entre dispositivos mediante WebRTC, sin pasar por servidores intermedios.</p>
+    </section>
+
+    <section>
+        <h2>3. Permisos del dispositivo</h2>
+        <table>
+            <tr><th>Permiso</th><th>Uso</th></tr>
+            <tr><td>Internet</td><td>Conexión al servidor de señalización y llamadas WebRTC</td></tr>
+            <tr><td>Cámara</td><td>Videollamadas y captura de fotos para enviar</td></tr>
+            <tr><td>Micrófono</td><td>Llamadas de voz/video y grabación de mensajes de audio</td></tr>
+            <tr><td>Notificaciones</td><td>Notificaciones de mensajes y llamadas entrantes</td></tr>
+            <tr><td>Vibración</td><td>Alertas de mensajes entrantes</td></tr>
+            <tr><td>Pantalla completa</td><td>Mostrar llamadas entrantes con la pantalla bloqueada</td></tr>
+            <tr><td>Servicio en primer plano</td><td>Mantener conexión para recibir mensajes en segundo plano</td></tr>
+            <tr><td>Bluetooth</td><td>Conexión con auriculares y accesorios de audio</td></tr>
+            <tr><td>Ajustes de audio</td><td>Control de volumen durante llamadas</td></tr>
+        </table>
+        <p><strong>Permisos que NO solicitamos:</strong> Ubicación, contactos del dispositivo, almacenamiento externo, teléfono, SMS.</p>
+    </section>
+
+    <section>
+        <h2>4. Seguridad</h2>
+        <h3>Cifrado en reposo</h3>
+        <p>Todos los datos almacenados en el dispositivo están cifrados con <strong>AES-256-GCM</strong> utilizando Android Keystore como fuente de claves.</p>
+        <h3>Protección de pantalla</h3>
+        <p>La aplicación activa FLAG_SECURE para evitar capturas de pantalla del contenido sensible.</p>
+        <h3>Sin rastro digital</h3>
+        <p>Silensio no registra datos de IP, metadatos de conversaciones, tiempos de conexión ni patrones de uso.</p>
+        <h3>Auto-destrucción</h3>
+        <p>La app incluye una función de autodestrucción que elimina de forma segura todas las claves, mensajes y archivos locales.</p>
+    </section>
+
+    <section>
+        <h2>5. Compartición con terceros</h2>
+        <p>Silensio <strong>NO comparte datos con terceros</strong>. No existen:</p>
+        <ul>
+            <li>Servicios de analytics</li>
+            <li>SDKs publicitarios</li>
+            <li>Redes sociales integradas</li>
+            <li>Herramientas de rastreo</li>
+            <li>Proveedores de publicidad</li>
+        </ul>
+        <div class="highlight">
+            Las únicas dependencias técnicas son librerías de código abierto para funcionalidad de la app (WebRTC, cifrado, interfaz).
+        </div>
+    </section>
+
+    <section>
+        <h2>6. Retención de datos</h2>
+        <ul>
+            <li>Los datos se mantienen <strong>únicamente en tu dispositivo</strong> mientras los conserves</li>
+            <li>No existe copia en la nube ni en servidores</li>
+            <li>Puedes eliminar todos los datos en cualquier momento desde <strong>Ajustes &gt; Autodestrucción</strong></li>
+            <li>Al desinstalar la app, todos los datos se eliminan permanentemente</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>7. Menores de edad</h2>
+        <p>Silensio no recopila datos personales identificables. No obstante, no está dirigida a menores de 13 años. Si un menor la utiliza bajo supervisión de un adulto, es responsabilidad de dicho adulto.</p>
+    </section>
+
+    <section>
+        <h2>8. Cambios en esta política</h2>
+        <p>Nos reservamos el derecho de actualizar esta política. Los cambios serán publicados en esta página con la fecha de "Última actualización" actualizada. Se recomienda revisar periódicamente esta política.</p>
+    </section>
+
+    <section>
+        <h2>9. Derechos del usuario</h2>
+        <ul>
+            <li><strong>Acceso:</strong> Conocer qué datos maneja la app (esta política)</li>
+            <li><strong>Eliminación:</strong> Borrar todos tus datos desde la app o desinstalándola</li>
+            <li><strong>Portabilidad:</strong> Tus claves cifradas pueden exportarse mediante la frase de recuperación</li>
+            <li><strong>Transparencia:</strong> Esta política describe exactamente qué hace la app con los datos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>10. Contacto</h2>
+        <div class="contact-box">
+            <p style="margin-bottom: 6px;">Si tienes preguntas sobre esta política o el manejo de datos en Silensio:</p>
+            <p class="email"><a href="mailto:pentestingmk@gmail.com" style="color:#00D2FF; text-decoration:none;">pentestingmk@gmail.com</a></p>
+            <p style="margin-top: 12px; font-size: 13px; color:#9090B0;">Mk Pentesting</p>
+        </div>
+    </section>
+
+    <p style="text-align:center; color:#9090B0; font-size:13px; margin-top: 20px;">
+        Esta política fue elaborada basándose en una auditoría completa del código fuente de Silensio, garantizando que las prácticas descritas reflejan exactamente el comportamiento de la app.
+    </p>
+
+</main>
+
+<div class="footer">
+    &copy; 2026 Silensio — Mk Pentesting. Todos los derechos reservados.
+</div>
+
+</body>
+</html>
